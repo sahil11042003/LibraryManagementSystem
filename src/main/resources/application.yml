@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/LibraryManagementSystem?createDatabaseIfNotExist=true
+    username: root
+    password: s@h1lsql
+  jpa:
+    hibernate.ddl-auto: update
+    show-sql: true
+
+server:
+  port: 9090
+
+custom_property:
+  secret_key:8ff8fg8rehrhr
+book:
+  maxAllowedDays: 14
